@@ -1,0 +1,2 @@
+kubectl label pod/nginx-1 env=uat --overwrite=true
+kubectl get pods --selector='env' --show-labels=true

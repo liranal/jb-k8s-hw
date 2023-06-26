@@ -1,0 +1,7 @@
+kubectl label pod nginx-1 app=nginx
+kubectl label pod nginx-2 app=nginx
+kubectl label pod nginx-3 app=nginx
+kubectl label pod nginx-4 app=nginx
+kubectl label pod nginx-5 app=nginx
+
+kubectl get pods --show-labels=true

@@ -1,0 +1,1 @@
+k run pod static-busybox --image=busybox --dry-run -o yaml > pod.yaml

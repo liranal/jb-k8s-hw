@@ -1,0 +1,1 @@
+kubectl label nodes k3d-node-1-0  nodeName=nginxnode

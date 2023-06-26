@@ -1,0 +1,8 @@
+kubectl label pod nginx-1 env-
+kubectl label pod nginx-2 env-
+kubectl label pod nginx-3 env-
+kubectl label pod nginx-4 env-
+kubectl label pod nginx-5 env-
+
+
+kubectl get pods --show-labels=true

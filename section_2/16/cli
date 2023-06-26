@@ -1,0 +1,1 @@
+kubectl run -ti --rm nginx-6 --image=nginx --overrides='{"spec": { "nodeSelector": {"nodeName": "nginxnode"}}}'

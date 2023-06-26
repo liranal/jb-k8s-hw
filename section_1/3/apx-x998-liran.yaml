@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2023-05-22T17:48:54Z"
+  labels:
+    kubernetes.io/metadata.name: apx-x998-liran
+  name: apx-x998-liran
+  resourceVersion: "762"
+  uid: 1e705f2a-a4e7-49ac-a613-11cfdd9a1026
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active

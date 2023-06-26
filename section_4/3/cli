@@ -1,0 +1,2 @@
+kubectl run nginx --image=nginx --restart=Never --dry-run -o yaml > nginx-pod.yml
+kubectl apply -f nginx-pod.yml

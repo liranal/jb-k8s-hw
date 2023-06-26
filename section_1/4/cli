@@ -1,0 +1,1 @@
+k get pods -o json > /tmp/nodes-liran.json

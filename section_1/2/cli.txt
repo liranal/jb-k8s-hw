@@ -1,0 +1,1 @@
+k run messaging-pod-liran --image=redis:alpine -o yaml --dry-run  -l "tier=msg" > messaging-pod-liran.yaml

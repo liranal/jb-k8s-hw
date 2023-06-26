@@ -1,0 +1,1 @@
+k run nginx-pod-liran --image=nginx:alpine -o yaml --dry-run > nginx-pod-liran.yaml 

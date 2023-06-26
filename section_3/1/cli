@@ -1,0 +1,1 @@
+k create deploy webapp --image=nginx --replicas=5 --dry-run -o yaml > webapp.yaml
